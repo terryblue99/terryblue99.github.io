@@ -1,0 +1,21 @@
+# Site settings
+title: Terry Blue
+header-img: img/home-bg.png
+email: terryblue@comcast.net
+copyright_name: terryblue99
+description: > # this means to ignore newlines until "baseurl:"
+  For The Love of Code
+baseurl: "" # the subpath of your site, e.g. /blog
+twitter_username: 
+github_username:  terryblue99
+learn_profile: terryblue99
+email_username: terryblue@comcast.net
+
+# Build settings
+markdown: kramdown
+highlighter: rouge
+permalink: pretty
+paginate: 5
+exclude: ["less","node_modules","Gruntfile.js","package.json","README.md"]
+
+gems: [jekyll-paginate, jekyll-feed]
