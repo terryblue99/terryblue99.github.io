@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Cut and Paste was a Waste"
-date:   2017-03-02 23:47:39 +0000
+date:   2017-03-02 18:47:40 -0500
 ---
 
 
@@ -16,6 +16,7 @@ I thought this would be relatively straightforward as I had already covered the 
 
 Here is the code I came up with:
 
+```
 def countdown(number, seconds)
   while number > 0
   	countdown_with_sleep(seconds)
@@ -29,7 +30,8 @@ def countdown_with_sleep(seconds)
   sleep seconds
 end
 
-countdown(10, 1) 
+countdown(10, 1)
+``` 
 
 I typed everything except for the values of the two puts strings which I cut and pasted directly from the instructions. It all looked good to me at this point so I ran it, and horror of horrors got the following error! 
 
