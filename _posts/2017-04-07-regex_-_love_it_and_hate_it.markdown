@@ -1,13 +1,13 @@
 ---
 layout: post
 title:  "Regex - Love it *and* Hate it"
-date:   2017-04-07 00:04:35 +0000
+date:   2017-04-06 20:04:36 -0400
 ---
 
 "I hate Regex because frankly I really don’t understand it"
 "You can think of regular expressions as wildcards on steroids"
 "Regex makes me want to weep"
-"I loveit and I hate it"
+"I love it and I hate it"
 
 Can you relate to one of the above quotes? I actually came accross them while researching how to use regex, and I have to admit, I'm one of the weirdos who actually love it.  At first glance it may seem like the brainchild of someone who had completely lost their mind but, love it or hate it (or both), its results can sometimes appear as nothing but miraculous. 
 
