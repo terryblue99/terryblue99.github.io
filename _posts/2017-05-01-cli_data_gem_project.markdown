@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "CLI Data Gem Project"
-date:   2017-05-01 02:58:15 +0000
+date:   2017-04-30 22:58:16 -0400
 ---
 
 
@@ -19,14 +19,14 @@ I have to admit I felt a little nervous at first because this was the first time
 
 **RESOURCES**
 
-o	[How to build a ruby gem](http://guides.rubygems.org/make-your-own-gem/)
-o	[How to publish your gem](http://guides.rubygems.org/publishing/)
-o	[Environments, Requiring Files, Bundler, and Gems](https://www.youtube.com/watch?v=XBgZLm-sdl8)
-o	[Video- CLI Data Gem Walkthrough](https://www.youtube.com/watch?v=_lDExWIhYKI)
-o	[Video- CLI Data Gem Walkthrough: Creating a CLI Scraper Gem](https://www.youtube.com/watch?v=Y5X6NRQi0bU)
-o	[Video- Common Anti-Patterns in CLI Data Gem](https://www.youtube.com/watch?v=cbMa87oWv08)
-o	[Video- Student Example 1: Refactoring CLI Data Gem](https://www.youtube.com/watch?v=JEL_PXr74qQ)
-o	[Video- Student Example 2: Refactoring CLI Data Gem](https://www.youtube.com/watch?v=Lt0oyHiKWIw)
+* [How to build a ruby gem](http://guides.rubygems.org/make-your-own-gem/)
+* [How to publish your gem](http://guides.rubygems.org/publishing/)
+* [Environments, Requiring Files, Bundler, and Gems](https://www.youtube.com/watch?v=XBgZLm-sdl8)
+* [Video- CLI Data Gem Walkthrough](https://www.youtube.com/watch?v=_lDExWIhYKI)
+* [Video- CLI Data Gem Walkthrough: Creating a CLI Scraper Gem](https://www.youtube.com/watch?v=Y5X6NRQi0bU)
+* [Video- Common Anti-Patterns in CLI Data Gem](https://www.youtube.com/watch?v=cbMa87oWv08)
+* [Video- Student Example 1: Refactoring CLI Data Gem](https://www.youtube.com/watch?v=JEL_PXr74qQ)
+* [Video- Student Example 2: Refactoring CLI Data Gem](https://www.youtube.com/watch?v=Lt0oyHiKWIw)
 
 I used the process of first writing out all my goals for completing the project and implemented them one at a time until they passed all tests before moving on to the next.  
 
