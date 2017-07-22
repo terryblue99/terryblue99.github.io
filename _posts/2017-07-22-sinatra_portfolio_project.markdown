@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Sinatra Portfolio Project"
-date:   2017-07-22 20:39:36 +0000
+date:   2017-07-22 16:39:36 -0400
 ---
 
 
@@ -23,3 +23,5 @@ I also wanted to create my app by using the TDD method as I had never done so be
 I have to say I was a little nervous about attempting this project but I was surprisingly amazed at how relatively smoothly the whole process went by using [Corneal](https://github.com/thebrianemory/corneal) and TDD, and I believe that I have met all of the project requirements.
 
 My app doesn’t have any bells and whistles in terms of amazing colorful graphics, but it does the job it was created to do.  However, I am looking forward to the time when I will be creating apps like that.
+
+My app can be viewed in Github, [here.](https://github.com/terryblue99/watch_collection)
