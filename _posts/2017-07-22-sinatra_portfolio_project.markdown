@@ -24,4 +24,4 @@ I have to say I was a little nervous about attempting this project but I was sur
 
 My app doesn’t have any bells and whistles in terms of amazing colorful graphics, but it does the job it was created to do.  However, I am looking forward to the time when I will be creating apps like that.
 
-My app can be viewed in Github, [here.](https://github.com/terryblue99/watch_collection)
+My app can be viewed in Github, [here.](https://github.com/terryblue99/watch_collection_bootstrapped)
