@@ -20,8 +20,10 @@ My first task was to use the [Corneal](https://github.com/thebrianemory/corneal)
 
 I also wanted to create my app by using the TDD method as I had never done so before.  I didn’t want to reinvent another wheel so I took an existing Rspec file that was similar to what I needed, and modified it for my purposes. I did have to tweak it a few times as I progressed through creating my app but I was glad I decided to go that route.
 
+I then refactored my app by adding [Twitter Bootstrap](https://getbootstrap.com/), and also the [Bootstrap Pagination](https://github.com/bootstrap-ruby/will_paginate-bootstrap) processes.
+
 I have to say I was a little nervous about attempting this project but I was surprisingly amazed at how relatively smoothly the whole process went by using [Corneal](https://github.com/thebrianemory/corneal) and TDD, and I believe that I have met all of the project requirements.
 
 My app doesn’t have any bells and whistles in terms of amazing colorful graphics, but it does the job it was created to do.  However, I am looking forward to the time when I will be creating apps like that.
 
-My app can be viewed in Github, [here.](https://github.com/terryblue99/watch_collection_bootstrapped)
+My app can be viewed in Github, [here.](https://github.com/terryblue99/watch_collection)
