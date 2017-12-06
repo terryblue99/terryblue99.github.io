@@ -1,7 +1,7 @@
 ---
 layout: post
 title:      "Rails Project"
-date:       2017-11-16 01:19:16 +0000
+date:       2017-11-15 20:19:16 -0500
 permalink:  rails_project
 ---
 
@@ -17,7 +17,7 @@ I also decided to use branches to code and test each part of my plan before merg
 Below is the Application Design Plan that I came up with:
 
 ```
-# Application Design Plan 
+# Application Design Plan
 
 1. Seed data
 
@@ -73,21 +73,24 @@ Below is the Application Design Plan that I came up with:
        belongs_to :watch  
        belongs_to :complication  
 
-       # When trying to save a record in the join table -  
-       # it fails with "TypeError - nil is not a symbol nor a string"  
-       # because there is no "primary key".  
-       # The problem is solved by adding the following line to the model  
+       (When trying to save a record in the join table  
+        it fails with "TypeError - nil is not a symbol nor a string"  
+        because there is no "primary key".  
+        The problem is solved by adding the following line to the model)  
+
        self.primary_key = 'watch_id'  
 
 5. Create views
 
     - users (Devise) => Action # 2  
     - watches  
+    - complications  
 
 6. Create controllers
 
     - users (Devise) => Action # 2  
     - watches  
+    - complications  
 
 7. Code basic processing
 
