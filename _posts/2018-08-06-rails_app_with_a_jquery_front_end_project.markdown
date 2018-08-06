@@ -39,24 +39,21 @@ Below is the documentation of my walkthrough:
 
 4.	The home page will be displayed by the watches#index root route => config/routes.rb => views/watches/index.html.erb
 
-# Options
+# **Options**
 
 **Home Page**	
 
-   - Contains a list of links and a list of watches
-   - If more than 16 watches are already saved, only the first 16 will be displayed and pagination links will appear at the 
-      bottom ([will_paginate](https://github.com/mislav/will_paginate)) 
-   - There will also be an option to change the number of watches displayed on each page 
+- Contains a list of links and a list of watches
+- If more than 16 watches are already saved, only the first 16 will be displayed and pagination links will appear at the 
+   bottom ([will_paginate](https://github.com/mislav/will_paginate)) 
+- There will also be an option to change the number of watches displayed on each page 
 
 •	If pagination links exist on the page:
 
-   - Click **Next** or **Previous** or a number to advance to the next or previous page or the page number selected
-   - The click is hijacked by the assets/javascripts/watches.js event handler for **“.pagination a”** which calls the pagination 
-			   function
-	- This clears the current list of watches, gets the next page of watches, appends them to the current page, and then 
-		 resets the pagination links
-	- Enter or select a number in the **Watches on a page** box and click **submit** to change the number of watches displayed 
-         per page
+1. Click **Next** or **Previous** or a number to advance to the next or previous page or the page number selected
+2. The click is hijacked by the assets/javascripts/watches.js event handler for **“.pagination a”** which calls the pagination function
+3. This clears the current list of watches, gets the next page of watches, appends them to the current page, and then resets the pagination links
+4. Enter or select a number in the **Watches on a page** box and click **submit** to change the number of watches displayed per page
 
 •	Click on **Show all of my watches** link to redisplay the initial home page
 
@@ -71,32 +68,30 @@ Below is the documentation of my walkthrough:
 
 **Watch Page**
 
-   - Contains a list of links and the watch details (only the watch name is displayed initially)
+- Contains a list of links and the watch details (only the watch name is displayed initially)
 
 •	Click on **Show Watch Details** link to view full details of the watch (minus complications)
-   - The click is hijacked by assets/javascripts/watches.js event handler for “**a.show_watch**”
-   - It gets the #watch-template handlebars template from views/watches/show.html.erb and compiles it
-   - Then calls the showWatch function to get the watch details and append them to  the current page
+1. The click is hijacked by assets/javascripts/watches.js event handler for “**a.show_watch**”
+2.  It gets the #watch-template handlebars template from views/watches/show.html.erb and compiles it
+3.  Then calls the showWatch function to get the watch details and append them to  the current page
 
 •	Click on **Complications** link to view complications	
-   - The click is hijacked by assets/javascripts/complications.js event handler for “**a.load_complications**”
-   - It gets the #complications handlebars template from views/watches/show.html.erb and compiles it
-   - Then calls the loadComplications function to get the complications
-   - If there are complications, they are sorted on name and then appended to the current page, else a message is 
-	    displaye saying **There are no complications to display!**
-   - In either case a form is displayed to add complications to the watch, either from an existing list or as a new one
-   - Select complication/s from the existing list or enter a new one and click **Update Watch**
-   - The click is hijacked by assets/javascripts/complications.js event handler for “**form#new_complication**”
-   - It retrieves the **action** and **params** from the form and calls the newComplication function
-   - This uses the Complication prototype and the renderComplication function attached to that prototype to format the 
-      complication/s and append to the current page
-   - Then makes an entry in the complications_watches join table (new complications are also added to complications 
+1. The click is hijacked by assets/javascripts/complications.js event handler for “**a.load_complications**”
+2. It gets the #complications handlebars template from views/watches/show.html.erb and compiles it
+3. Then calls the loadComplications function to get the complications
+4. If there are complications, they are sorted on name and then appended to the current page, else a message is displayed saying **There are no complications to display!**
+5. In either case a form is displayed to add complications to the watch, either from an existing list or as a new one
+6. Select complication/s from the existing list or enter a new one and click **Update Watch**
+7. The click is hijacked by assets/javascripts/complications.js event handler for “**form#new_complication**
+8. It retrieves the **action** and **params** from the form and calls the newComplication function
+9. This uses the Complication prototype and the renderComplication function attached to that prototype to format the complication/s and append to the current page
+10. Then makes an entry in the complications_watches join table (new complications are also added to complications 
 	        table)
 
 •	Click on a complication name link to display its description 
-   - controllers/complications_controller.rb => description route => views/complications/description.html.erb
-   - Click on **Back** to return to the previous page
-   - **OR** Click on **Delete this complication** to delete the complication 
+1. controllers/complications_controller.rb => description route => views/complications/description.html.erb
+2. Click on **Back** to return to the previous page
+3. **OR** Click on **Delete this complication** to delete the complication 
         - An alert will display asking **Are you sure you want to delete this complication?**
         - Click **OK** to delete the complication or **Cancel** to abort
         - Only deletes the entry in the complications_watches join table
@@ -106,27 +101,27 @@ Below is the documentation of my walkthrough:
 •	Click on **Add a new watch** link to add a watch => views/watches/new.html.erb => views/watches/_form.html.erb
 
 •	Click on **Delete this watch** link to delete the watch => controllers/watches_controller.rb => destroy route
-   - An alert will display asking **Are you sure you want to delete this watch?**
-   - Click **OK** to delete the watch or **Cancel** to abort
-   - Deleting the watch will also delete any related join records in the complications_watches join table
+1. An alert will display asking **Are you sure you want to delete this watch?**
+2. Click **OK** to delete the watch or **Cancel** to abort
+3. Deleting the watch will also delete any related join records in the complications_watches join table
 
 •	Click on **Show all of my watches** link to redisplay the initial home page
 
  **Navbar Links**
 
 •	**My Watch Collection**
-   - Redisplays the initial home page
+   Redisplays the initial home page
 
 •	The signed in ID (not a link)
 
 •	**Sign Out**
-   - Exits the application
+   Exits the application
 
 •	**Watch Education**
-   - Links to a website with information on “Everything You need To Know About Watches”
+   Links to a website with information on “Everything You need To Know About Watches”
 
 •	**Watches Online**
-   - Links to a website that sells watches
+   Links to a website that sells watches
 
 * **Twitter**
 * **Facebook**
