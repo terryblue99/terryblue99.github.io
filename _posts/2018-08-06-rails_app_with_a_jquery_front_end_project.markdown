@@ -85,7 +85,7 @@ Below is the documentation of my walkthrough:
 6. Select complication/s from the existing list and/or enter a new one and click **Update Watch**
 7. The click is hijacked by assets/javascripts/complications.js event handler for “**form#new_complication**
 8. It retrieves the **action** and **params** from the form and calls the *newComplication* function
-9. This uses the *Complication* prototype and the *renderComplication* function attached to that prototype to format the complication/s and append to the current page
+9. This uses the *Complication* prototype and the *renderComplication* function attached to that prototype to format and append the complication/s to the current page
 10. Then makes an entry in the complications_watches join table (*any new complications are also added to the complications table*)
 
 •	Click on a complication name link to display its description  => controllers/complications_controller.rb => description route => views/complications/description.html.erb
