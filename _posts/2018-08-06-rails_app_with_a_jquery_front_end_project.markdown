@@ -82,17 +82,15 @@ Below is the documentation of my walkthrough:
 3. Then calls the *loadComplications* function to get the complications
 4. If there are complications, they are sorted on name and then appended to the current page, else a message is displayed saying **There are no complications to display!**
 5. In either case a form is displayed to add complications to the watch, either from an existing list or as a new one
-6. Select complication/s from the existing list or enter a new one and click **Update Watch**
+6. Select complication/s from the existing list and/or enter a new one and click **Update Watch**
 7. The click is hijacked by assets/javascripts/complications.js event handler for “**form#new_complication**
 8. It retrieves the **action** and **params** from the form and calls the *newComplication* function
 9. This uses the *Complication* prototype and the *renderComplication* function attached to that prototype to format the complication/s and append to the current page
-10. Then makes an entry in the complications_watches join table (*new complications are also added to complications 
-	        table*)
+10. Then makes an entry in the complications_watches join table (*any new complications are also added to the complications table*)
 
-•	Click on a complication name link to display its description 
-1. controllers/complications_controller.rb => description route => views/complications/description.html.erb
-2. Click on **Back** to return to the previous page
-3. **OR** Click on **Delete this complication** to delete the complication 
+•	Click on a complication name link to display its description  => controllers/complications_controller.rb => description route => views/complications/description.html.erb
+1. Click on **Back** to return to the previous page
+2. **OR** Click on **Delete this complication** to delete the complication 
 *  An alert will display asking **Are you sure you want to delete this complication?**
 *  Click **OK** to delete the complication or **Cancel** to abort
 *  Only deletes the entry in the complications_watches join table
@@ -102,9 +100,9 @@ Below is the documentation of my walkthrough:
 •	Click on **Add a new watch** link to add a watch => views/watches/new.html.erb => views/watches/_form.html.erb
 
 •	Click on **Delete this watch** link to delete the watch => controllers/watches_controller.rb => destroy route
-1. An alert will display asking **Are you sure you want to delete this watch?**
-2. Click **OK** to delete the watch or **Cancel** to abort
-3. Deleting the watch will also delete any related join records in the complications_watches join table
+* An alert will display asking **Are you sure you want to delete this watch?**
+* Click **OK** to delete the watch or **Cancel** to abort
+* Deleting the watch will also delete any related join records in the complications_watches join table
 
 •	Click on **Show all of my watches** link to redisplay the initial home page
 
