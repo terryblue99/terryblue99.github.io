@@ -43,10 +43,10 @@ Below is the documentation of my walkthrough:
 
 **Home Page**	
 
-- Contains a list of links and a list of watches
-- If more than 16 watches are already saved, only the first 16 will be displayed and pagination links will appear at the 
+* Contains a list of links and a list of watches
+* If more than 16 watches are already saved, only the first 16 will be displayed and pagination links will appear at the 
    bottom ([will_paginate](https://github.com/mislav/will_paginate)) 
-- There will also be an option to change the number of watches displayed on each page 
+* There will also be an option to change the number of watches displayed on each page 
 
 •	If pagination links exist on the page:
 
@@ -68,7 +68,7 @@ Below is the documentation of my walkthrough:
 
 **Watch Page**
 
-- Contains a list of links and the watch details (only the watch name is displayed initially)
+* Contains a list of links and the watch details (only the watch name is displayed initially)
 
 •	Click on **Show Watch Details** link to view full details of the watch (minus complications)
 1. The click is hijacked by assets/javascripts/watches.js event handler for “**a.show_watch**”
@@ -92,9 +92,9 @@ Below is the documentation of my walkthrough:
 1. controllers/complications_controller.rb => description route => views/complications/description.html.erb
 2. Click on **Back** to return to the previous page
 3. **OR** Click on **Delete this complication** to delete the complication 
-        - An alert will display asking **Are you sure you want to delete this complication?**
-        - Click **OK** to delete the complication or **Cancel** to abort
-        - Only deletes the entry in the complications_watches join table
+*  An alert will display asking **Are you sure you want to delete this complication?**
+*  Click **OK** to delete the complication or **Cancel** to abort
+*  Only deletes the entry in the complications_watches join table
 
 •	Click on **Edit this Watch** to edit the watch details => views/watches/edit.html.erb => views/watches/_form.html.erb
 
