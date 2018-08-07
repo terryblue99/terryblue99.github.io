@@ -8,7 +8,7 @@ permalink:  rails_app_with_a_jquery_front_end_project
 
 The goal of [this project](https://github.com/terryblue99/my-watch-collection-v-001) is to expand upon my [previous Rails Project](https://github.com/terryblue99/my-watch-collection-v-000) by adding dynamic features, using jQuery and a JSON API, without using remote: true.
 
-# **REQUIREMENTS**
+**REQUIREMENTS**
 1. Use jQuery for implementing new requirements 
 2. Include a show resource rendered using jQuery and an Active Model Serialization JSON backend
 3. Include an index resource rendered using jQuery and an Active Model Serialization JSON backend
@@ -23,7 +23,7 @@ I also did the normal walkthrough of my application at the end but this time I d
 
 Below is the documentation of my walkthrough:
 
-# **WALKTHROUGH**
+**WALKTHROUGH**
 
 1.	Clone the repository from Github and run the following commands in the terminal:  
 
@@ -39,14 +39,16 @@ Below is the documentation of my walkthrough:
 
 4.	The home page will be displayed by the watches#index root route => config/routes.rb => views/watches/index.html.erb
 
-# **Options**
+**Options**
 
 **Home Page**	
 
-* Contains a list of links and a list of watches
-* If more than 16 watches are already saved, only the first 16 will be displayed and pagination links will appear at the 
+   Contains a list of links and a list of watches
+	 
+   If more than 16 watches are already saved, only the first 16 will be displayed and pagination links will appear at the 
    bottom ([will_paginate](https://github.com/mislav/will_paginate)) 
-* There will also be an option to change the number of watches displayed on each page 
+	 
+   There will also be an option to change the number of watches displayed on each page 
 
 •	If pagination links exist on the page:
 
@@ -68,7 +70,7 @@ Below is the documentation of my walkthrough:
 
 **Watch Page**
 
-* Contains a list of links and the watch details (only the watch name is displayed initially)
+   Contains a list of links and the watch details (only the watch name is displayed initially)
 
 •	Click on **Show Watch Details** link to view full details of the watch (minus complications)
 1. The click is hijacked by assets/javascripts/watches.js event handler for “**a.show_watch**”
