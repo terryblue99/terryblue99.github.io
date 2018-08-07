@@ -27,17 +27,16 @@ Below is the documentation of my walkthrough:
 
 1.	Clone the repository from Github and run the following commands in the terminal:  
 
-      - **bundle install**  => (installs the app gems)
-      - **rake db:migrate** => (runs migrations) 
-      - **rake db:seed** => (Loads the complications table with watch complications)  
-																		               (There are a few sample users which are commented out)  
-      - **rails s**  => (starts the server,  displaying the local host url)
+      - **bundle install**  => (*installs the app gems*)
+      - **rake db:migrate** => (*runs migrations*) 
+      - **rake db:seed** => (*Loads the complications table with watch complications*)
+      - **rails s**  => (*starts the server,  displaying the local host url*)
 
-2.	Copy and paste the url into the browser to display the Log in page
+2.	Copy and paste the url into the browser to display the **Log in** page
 
 3.	**Log in** or click **Sign up** to go to the **Sign up** page => [Devise](https://github.com/plataformatec/devise)/[OmniAuth](https://code.tutsplus.com/articles/how-to-use-omniauth-to-authenticate-your-users--net-22094) handles users/authorizations
 
-4.	The home page will be displayed by the watches#index root route => config/routes.rb => views/watches/index.html.erb
+4.	The home page will be displayed by the *watches#index* root route => config/routes.rb => views/watches/index.html.erb
 
 **Options**
 
@@ -53,14 +52,14 @@ Below is the documentation of my walkthrough:
 •	If pagination links exist on the page:
 
 1. Click **Next** or **Previous** or a number to advance to the next or previous page or the page number selected
-2. The click is hijacked by the assets/javascripts/watches.js event handler for **“.pagination a”** which calls the pagination function
+2. The click is hijacked by the assets/javascripts/watches.js event handler for **“.pagination a”** which calls the *pagination* function
 3. This clears the current list of watches, gets the next page of watches, appends them to the current page, and then resets the pagination links
 4. Enter or select a number in the **Watches on a page** box and click **submit** to change the number of watches displayed per page
 
 •	Click on **Show all of my watches** link to redisplay the initial home page
 
-•	Click on **Show the maker of most of my watches** link to display the related list (pagination process same as for all 
-   watches)
+•	Click on **Show the maker of most of my watches** link to display the related list (*pagination process same as for all 
+   watches*)
 
 •	Click on **Show my 10 newest watches** link to display the related list
 
@@ -72,23 +71,23 @@ Below is the documentation of my walkthrough:
 
    Contains a list of links and the watch details (only the watch name is displayed initially)
 
-•	Click on **Show Watch Details** link to view full details of the watch (minus complications)
+•	Click on **Show Watch Details** link to view full details of the watch (*minus complications*)
 1. The click is hijacked by assets/javascripts/watches.js event handler for “**a.show_watch**”
-2.  It gets the #watch-template handlebars template from views/watches/show.html.erb and compiles it
-3.  Then calls the showWatch function to get the watch details and append them to  the current page
+2.  It gets the *#watch-template* handlebars template from views/watches/show.html.erb and compiles it
+3.  Then calls the *showWatch* function to get the watch details and append them to  the current page
 
 •	Click on **Complications** link to view complications	
 1. The click is hijacked by assets/javascripts/complications.js event handler for “**a.load_complications**”
-2. It gets the #complications handlebars template from views/watches/show.html.erb and compiles it
-3. Then calls the loadComplications function to get the complications
+2. It gets the *#complications* handlebars template from views/watches/show.html.erb and compiles it
+3. Then calls the *loadComplications* function to get the complications
 4. If there are complications, they are sorted on name and then appended to the current page, else a message is displayed saying **There are no complications to display!**
 5. In either case a form is displayed to add complications to the watch, either from an existing list or as a new one
 6. Select complication/s from the existing list or enter a new one and click **Update Watch**
 7. The click is hijacked by assets/javascripts/complications.js event handler for “**form#new_complication**
-8. It retrieves the **action** and **params** from the form and calls the newComplication function
-9. This uses the Complication prototype and the renderComplication function attached to that prototype to format the complication/s and append to the current page
-10. Then makes an entry in the complications_watches join table (new complications are also added to complications 
-	        table)
+8. It retrieves the **action** and **params** from the form and calls the *newComplication* function
+9. This uses the *Complication* prototype and the *renderComplication* function attached to that prototype to format the complication/s and append to the current page
+10. Then makes an entry in the complications_watches join table (*new complications are also added to complications 
+	        table*)
 
 •	Click on a complication name link to display its description 
 1. controllers/complications_controller.rb => description route => views/complications/description.html.erb
@@ -114,7 +113,7 @@ Below is the documentation of my walkthrough:
 •	**My Watch Collection**
    Redisplays the initial home page
 
-•	The signed in ID (not a link)
+•	The signed in ID (*not a link*)
 
 •	**Sign Out**
    Exits the application
