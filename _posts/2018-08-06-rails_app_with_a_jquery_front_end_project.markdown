@@ -93,7 +93,8 @@ Below is the documentation of my walkthrough:
 2. **OR** Click on **Delete this complication** to delete the complication 
 *  An alert will display asking **Are you sure you want to delete this complication?**
 *  Click **OK** to delete the complication or **Cancel** to abort
-*  Only deletes the entry in the complications_watches join table
+*  Only deletes the entry in the complications_watches join table and not the complications table
+*  Returns to the previous page and displays that the complication has been deleted
 
 •	Click on **Edit this Watch** to edit the watch details => views/watches/edit.html.erb => views/watches/_form.html.erb
 
