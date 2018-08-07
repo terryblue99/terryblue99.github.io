@@ -81,7 +81,7 @@ Below is the documentation of my walkthrough:
 2. It gets the *#complications* handlebars template from views/watches/show.html.erb and compiles it
 3. Then calls the *loadComplications* function to get the complications
 4. If there are complications, they are sorted on name and then appended to the current page, else a message is displayed saying **There are no complications to display!**
-5. In either case a form is displayed to add complications to the watch, either from an existing list or as a new one
+5. In either case a form is displayed to add complications to the watch, either from an existing list, as a new one, or a combination of both
 6. Select complication/s from the existing list and/or enter a new one and click **Update Watch**
 7. The click is hijacked by assets/javascripts/complications.js event handler for “**form#new_complication**
 8. It retrieves the **action** and **params** from the form and calls the *newComplication* function
@@ -100,9 +100,9 @@ Below is the documentation of my walkthrough:
 •	Click on **Add a new watch** link to add a watch => views/watches/new.html.erb => views/watches/_form.html.erb
 
 •	Click on **Delete this watch** link to delete the watch => controllers/watches_controller.rb => destroy route
-* An alert will display asking **Are you sure you want to delete this watch?**
-* Click **OK** to delete the watch or **Cancel** to abort
-* Deleting the watch will also delete any related join records in the complications_watches join table
+   - An alert will display asking **Are you sure you want to delete this watch?**
+   - Click **OK** to delete the watch or **Cancel** to abort
+   - Deleting the watch will also delete any related join records in the complications_watches join table
 
 •	Click on **Show all of my watches** link to redisplay the initial home page
 
