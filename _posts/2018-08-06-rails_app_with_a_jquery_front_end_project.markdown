@@ -99,11 +99,13 @@ Below is the documentation of my walkthrough:
 •	Click on **Edit this Watch** to edit the watch details => views/watches/edit.html.erb => views/watches/_form.html.erb
 
 •	Click on **Add a new watch** link to add a watch => views/watches/new.html.erb => views/watches/_form.html.erb
+   (minimum entries of **watch name** and **watch maker** are required)
 
 •	Click on **Delete this watch** link to delete the watch => controllers/watches_controller.rb => destroy route
    - An alert will display asking **Are you sure you want to delete this watch?**
    - Click **OK** to delete the watch or **Cancel** to abort
    - Deleting the watch will also delete any related join records in the complications_watches join table
+   - Returns to the initial home page
 
 •	Click on **Show all of my watches** link to redisplay the initial home page
 
