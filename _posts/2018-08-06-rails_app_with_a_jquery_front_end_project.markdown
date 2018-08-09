@@ -90,10 +90,15 @@ Below is the documentation of my walkthrough:
 
 •	Click on a complication name link to display its description  => controllers/complications_controller.rb => description route => views/complications/description.html.erb
 1. Click on **Back** to return to the previous page
-2. **OR** Click on **Delete this complication** to delete the complication 
-*  An alert will display asking **Are you sure you want to delete this complication?**
+2. **OR** Click on **Delete this complication from the watch** to delete the complication from the watch
+*  An alert will display asking **Are you sure you want to delete this complication from the watch?**
 *  Click **OK** to delete the complication or **Cancel** to abort
 *  Only deletes the entry in the complications_watches join table and not the complications table
+3. **OR** Click on **Delete this complication from the list** to delete the complication from the list
+*  An alert will display asking **Are you sure you want to delete this complication from the list?**
+**ALL watches will lose this complication!!!**
+*  Click **OK** to delete the complication or **Cancel** to abort
+*  Deletes the entry in the complications table and **ALL** related entries in the complications_watches join table
 *  Returns to the previous page and displays that the complication has been deleted
 
 •	Click on **Edit this Watch** to edit the watch details => views/watches/edit.html.erb => views/watches/_form.html.erb
