@@ -108,6 +108,8 @@ Below is the documentation of my walkthrough:
 
 •	Click on **Add a new watch** link to add a watch => views/watches/new.html.erb => views/watches/_form.html.erb
    (minimum entries of **watch name** and **watch maker** are required)
+1.   Add details for a new watch
+2.  Click **Choose File** to add an image for the watch (if none chosen, default image displayed)
 
 •	Click on **Delete this watch** link to delete the watch => controllers/watches_controller.rb => destroy route
    - An alert will display asking **Are you sure you want to delete this watch?**
