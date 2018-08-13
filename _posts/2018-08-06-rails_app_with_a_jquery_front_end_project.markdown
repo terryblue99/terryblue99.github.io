@@ -58,12 +58,14 @@ Below is the documentation of my walkthrough:
 
 •	Click on **Show all of my watches** link to redisplay the initial home page
 
-•	Click on **Show the maker of most of my watches** link to display the related list (*pagination process same as for all 
+•	Click on **Who makes most of my watches?** link to display the related list (*pagination process same as for all 
    watches*)
 
 •	Click on **Show my 10 newest watches** link to display the related list
 
 •	Click on **Add a new watch** link to add a watch => views/watches/new.html.erb => views/watches/_form.html.erb
+1.   Add details for a new watch
+2.  Click **Choose File** to add an image for the watch (if none chosen, default image displayed)
 
 •	Click on a watch name link to view the watch => views/watches/show.html.erb 
 
@@ -71,7 +73,7 @@ Below is the documentation of my walkthrough:
 
    Contains a list of links and the watch details (only the watch name is displayed initially)
 
-•	Click on **Show Watch Details** link to view full details of the watch (*minus complications*)
+•	Click on **Show watch details** link to view full details of the watch (*minus complications*)
 1. The click is hijacked by assets/javascripts/watches.js event handler for “**a.show_watch**”
 2.  It gets the *#watch-template* handlebars template from views/watches/show.html.erb and compiles it
 3.  Then calls the *showWatch* function to get the watch details and append them to  the current page
@@ -101,7 +103,8 @@ Below is the documentation of my walkthrough:
 *  Deletes the entry in the complications table and **ALL** related entries in the complications_watches join table
 *  Returns to the previous page and displays that the complication has been deleted
 
-•	Click on **Edit this Watch** to edit the watch details => views/watches/edit.html.erb => views/watches/_form.html.erb
+•	Click on **Edit this watch** to edit the watch details => views/watches/edit.html.erb => views/watches/_form.html.erb
+1. Click **Choose File** if adding or changing an image for the watch
 
 •	Click on **Add a new watch** link to add a watch => views/watches/new.html.erb => views/watches/_form.html.erb
    (minimum entries of **watch name** and **watch maker** are required)
