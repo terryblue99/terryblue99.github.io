@@ -112,10 +112,10 @@ Below is the documentation of my walkthrough:
 2.  Click **Choose File** to add an image for the watch (if none chosen, default image displayed)
 
 •	Click on **Delete this watch** link to delete the watch => controllers/watches_controller.rb => destroy route
-   - An alert will display asking **Are you sure you want to delete this watch?**
-   - Click **OK** to delete the watch or **Cancel** to abort
-   - Deleting the watch will also delete any related join records in the complications_watches join table
-   - Returns to the initial home page
+1. An alert will display asking **Are you sure you want to delete this watch?**
+2. Click **OK** to delete the watch or **Cancel** to abort
+3. Deleting the watch will also delete any related join records in the complications_watches join table
+4. Returns to the initial home page
 
 •	Click on **Show all of my watches** link to redisplay the initial home page
 
