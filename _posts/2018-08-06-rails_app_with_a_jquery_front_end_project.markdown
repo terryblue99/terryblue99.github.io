@@ -67,6 +67,11 @@ Below is the documentation of my walkthrough:
 1.   Add details for a new watch
 2.  Click **Choose File** to add an image for the watch (if none chosen, default image displayed)
 
+•	**Find a Watch**
+
+1. Enter a watch name or part of a name in the **Search for** field and click **Search**
+2. The watch/es and related maker/s will display, or if not found, the message "There are currently no watches to display! "
+
 •	**Find a Maker**
 
 1. Enter a watch maker name in the **Search for** field and click **Search**
