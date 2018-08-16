@@ -88,17 +88,19 @@ Below is the documentation of my walkthrough:
 2.  It gets the *#watch-template* handlebars template from views/watches/show.html.erb and compiles it
 3.  Then calls the *showWatch* function to get the watch details and append them to  the current page
 
-•	Click on **Complications** link to view complications	
+•	Click on **Show complications** link to view complications	
 1. The click is hijacked by assets/javascripts/complications.js event handler for “**a.load_complications**”
 2. It gets the *#complications* handlebars template from views/watches/show.html.erb and compiles it
 3. Then calls the *loadComplications* function to get the complications
 4. If there are complications, they are sorted on name and then appended to the current page, else a message is displayed saying **There are no complications to display!**
-5. In either case a form is displayed to add complications to the watch, either from the  list, as a new one, or a combination of both
-6. Select complication/s from the existing list and/or enter a new one and click **Update Watch**
-7. The click is hijacked by assets/javascripts/complications.js event handler for “**form#new_complication**
-8. It retrieves the **action** and **params** from the form and calls the *newComplication* function
-9. This uses the *Complication* prototype and the *renderComplication* function attached to that prototype to format and append the complication/s to the current page
-10. Then makes an entry in the complications_watches join table (*any new complications are also added to the complications table*)
+
+•	Click on **Add complications** link to add complications
+1. A form is displayed to add complications to the watch, either from the  list, as a new one, or a combination of both
+2. Select complication/s from the existing list and/or enter a new one and click **Update Watch**
+3. The click is hijacked by assets/javascripts/complications.js event handler for “**form#new_complication**
+4. It retrieves the **action** and **params** from the form and calls the *newComplication* function
+5. This uses the *Complication* prototype and the *renderComplication* function attached to that prototype to format and append the complication/s to the current page
+6. Then makes an entry in the complications_watches join table (*any new complications are also added to the complications table*)
 
 •	Click on a complication name link to display its description  => controllers/complications_controller.rb => description route => views/complications/description.html.erb
 1. Click on **Back** to return to the previous page
