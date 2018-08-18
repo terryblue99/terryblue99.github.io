@@ -89,13 +89,13 @@ Below is the documentation of my walkthrough:
 3.  Then calls the *showWatch* function to get the watch details and append them to  the current page
 
 •	Click on **Show complications** link to view complications	
-1. The click is hijacked by assets/javascripts/complications.js event handler for “**a.load_complications**”
+1. The click is hijacked by assets/javascripts/complications.js event handler for “**a.complications_link**” (**#load_complications**)
 2. It gets the *#complications* handlebars template from views/watches/show.html.erb and compiles it
 3. Then calls the *loadComplications* function to get the complications
 4. If there are complications, they are sorted on name and then appended to the current page, else a message is displayed saying **There are no complications to display!**
 
 •	Click on **Add complications** link to add complications
-1. The click is hijacked by assets/javascripts/complications.js event handler for “**a.complications_form**”
+1. The click is hijacked by assets/javascripts/complications.js event handler for “**a.complications_link**” (**#complications_form**)
 2. It loads the existing complications on the watch, if any
 3. Then displays a form to add complications to the watch, either from the list, as a new one, or a  combination of both 
 4. Select complication/s from the existing list and/or enter a new one and click **Update Watch**
