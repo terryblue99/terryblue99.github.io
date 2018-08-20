@@ -144,6 +144,9 @@ Below is the documentation of my walkthrough:
 
 •	**Sign Out**
    Exits the application
+	 
+•	**Edit Profile**
+   Edit email address / password
 
 •	**Watch Education**
    Links to a website with information on “Everything You need To Know About Watches”
