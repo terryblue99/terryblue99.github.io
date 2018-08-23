@@ -78,6 +78,7 @@ Below is the documentation of my walkthrough:
 2. The maker and related list of watches will display, or if not found, the message "There are currently no watches to display! "
 
 •	Click on a watch name link to view the watch => views/watches/show.html.erb 
+   (Only the watch name is displayed initially)
 
 **Watch Page**
 
