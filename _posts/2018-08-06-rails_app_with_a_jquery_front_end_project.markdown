@@ -119,6 +119,7 @@ Below is the documentation of my walkthrough:
 *  Click **OK** to delete the complication or **Cancel** to abort
 *  Deletes the entry in the complications table and **ALL** related entries in the complications_watches join table
 *  Returns to the previous page and displays that the complication has been deleted
+*  Click on **Show complications** to refresh the complications displayed
 
 •	Click on **Edit this watch** to edit the watch details => views/watches/edit.html.erb => views/watches/_form.html.erb
 1. Click **Choose File** if adding or changing an image for the watch
