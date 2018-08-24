@@ -104,8 +104,8 @@ Below is the documentation of my walkthrough:
 3. Then calls the *loadComplications* function to get the complications
 4. If there are complications, they are sorted on name and then appended to the current page, else a message is displayed saying **There are no complications to display!**
 5. It then displays a form to add complications to the watch, either from the list, as a new one, or a  combination of both 
-     **- (No page refresh) - Requirements 4 & 5**
 6. Select complication/s from the existing list and/or enter a new one and click **Update Watch**
+     **- (No page refresh) - Requirements 4 & 5**
 7. The click is hijacked by assets/javascripts/complications.js event handler for “**form#new_complication**
 8. It retrieves the **action** and **params** from the form and calls the *newComplication* function
 9. This uses the *Complication* prototype and the *renderComplication* function attached to that prototype to format and append the complication/s to the current page
