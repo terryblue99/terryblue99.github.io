@@ -159,4 +159,4 @@ Below is the documentation of my walkthrough:
 * **Facebook**
 * **Google Plus**
 
-[Here is my video walkthrough](https://youtu.be/1zSnnZW34Dk)
+[Here is my video walkthrough](https://youtu.be/VoPAuMnq-aU)
