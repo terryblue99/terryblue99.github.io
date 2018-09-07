@@ -6,7 +6,7 @@ permalink:  rails_app_with_a_jquery_front_end_project
 ---
 
 
-The goal of [this project](https://github.com/terryblue99/my-watch-collection-v-001) is to expand upon my [previous Rails Project](https://github.com/terryblue99/my-watch-collection-v-000) by adding dynamic features, using jQuery and a JSON API to append data to existing pages without a page refresh, and without using remote: true.
+The goal of [this project](https://github.com/terryblue99/my-watch-collection-v-001) is to expand upon my [previous Rails Project](https://github.com/terryblue99/my-watch-collection-v-000) by adding dynamic features, using jQuery and a JSON API to append data to existing pages without a page refresh.
 
 **REQUIREMENTS**
 1. Use jQuery for implementing new requirements 
