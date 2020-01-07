@@ -1,7 +1,7 @@
 ---
 layout: post
 title:      "React Redux Portfolio Project"
-date:       2020-01-07 23:01:46 +0000
+date:       2020-01-07 18:01:47 -0500
 permalink:  react_redux_portfolio_project
 ---
 
@@ -37,7 +37,7 @@ I used Github branches to code and test my application as I developed it and mer
 
 **FLOWCHART**
 
-![](http://photos.google.com/photo/AF1QipML-68anJEMcG3zW16pNOygtlLz1V7JatyCn9hU)
+![](https://photos.google.com/photo/AF1QipOGg0gAjbshqwP4rD_Os1MYfTQ4NX6Bh7R55BFP)
 
 
 
