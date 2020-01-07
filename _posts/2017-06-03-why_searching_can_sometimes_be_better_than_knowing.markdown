@@ -1,11 +1,12 @@
 ---
 layout: post
-title:  Why searching can sometimes be better than knowing
-date:   2017-06-03 17:23:27 +0000
+title:      "Why searching can sometimes be better than knowing"
+date:       2017-06-03 13:23:27 -0400
+permalink:  why_searching_can_sometimes_be_better_than_knowing
 ---
 
 
-[Click here to find out why](https://medium.freecodecamp.com/google-not-learn-not-why-searching-can-be-better-than-knowing-79838f7a0f06)
+[Click here to find out why](https://www.freecodecamp.org/news/google-not-learn-not-why-searching-can-be-better-than-knowing-79838f7a0f06/)
 
 “Never memorize something that you can look up.” -   Albert Einstein
 
