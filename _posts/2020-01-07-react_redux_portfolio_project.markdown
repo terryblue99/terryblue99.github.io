@@ -35,9 +35,8 @@ I used Github branches to code and test my application as I developed it and mer
 
 [Scrimba](https://scrimba.com/)
 
-Flowchart
 
-![](https://imgur.com/a/UTAHNOB)
+![Flowchart](https://imgur.com/a/UTAHNOB)
 
 
 
