@@ -10,4 +10,6 @@ permalink:  why_searching_can_sometimes_be_better_than_knowing
 
 “Never memorize something that you can look up.” -   Albert Einstein
 
-“Only memorize the things you use every day. Everything else, just memorize how to look it up.”
+“You will eventually memorize those things you have to look up regularly” - Terry Blue
+
+
