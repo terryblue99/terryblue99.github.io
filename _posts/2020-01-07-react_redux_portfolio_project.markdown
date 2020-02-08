@@ -37,6 +37,8 @@ I used Github branches to code and test my application as I developed it and mer
 
 **[FLOWCHART](https://imgur.com/eCEjcaZ)**
 
+**[Video Walk Through](https://www.youtube.com/watch?v=TfvFNoPE2qI)**
+
 
 
 
