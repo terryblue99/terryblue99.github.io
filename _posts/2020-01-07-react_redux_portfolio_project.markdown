@@ -6,7 +6,7 @@ permalink:  react_redux_portfolio_project
 ---
 
 
-My goal for [this project](https://github.com/terryblue99/my-watch-collection-v-002) was to expand upon my [previous Rails Project](https://github.com/terryblue99/my-watch-collection-v-001) by utilizing a React Redux frontend and a Rails API backend. 
+My goal for [this project](https://github.com/terryblue99/my-watch-collection-v-003) was to expand upon my [previous Rails Project](https://github.com/terryblue99/my-watch-collection-v-001) by utilizing a React Redux frontend and a Rails API backend. 
 
 It is an application named 'My Watch Collection' that allows a watch collector (like myself) to catalogue, update, and view their watch collection.
 
@@ -26,6 +26,8 @@ It is an application named 'My Watch Collection' that allows a watch collector (
 12.  The application should have some minimal styling: like react-bootstrap, but additional CSS may be included
       
 I used Github branches to code and test my application as I developed it and merged those with the master branch when successfully tested.
+
+I encountered a major problem when testing the completed app.  It turned out that SQLite3, the default Rails DB, was being locked occasionally when async operations were executing.  This caused the process running to fail, leaving behind orphaned images.  To solve this problem I had to convert to the MYSQL DB which did not produce the same problem. I was also able to upgrade from Rails 5 to Rails 6 which made the conversion so much easier. Rails 6 introduces the "rails db:system:change" command to make this easier, using all the built-in generators for database.yml and more.
 
 **HELPERS**
 
