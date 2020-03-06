@@ -27,7 +27,7 @@ It is an application named 'My Watch Collection' that allows a watch collector (
       
 I used Github branches to code and test my application as I developed it and merged those with the master branch when successfully tested.
 
-I encountered a major problem when testing the completed app.  It turned out that SQLite3, the default Rails DB, was being locked occasionally when async operations were executing.  This caused the process running to fail, leaving behind orphaned images.  To solve this problem I had to convert to the MYSQL DB which did not produce the same problem. I was also able to upgrade from Rails 5 to Rails 6 which made the conversion so much easier. Rails 6 introduces the "rails db:system:change" command to make this easier, using all the built-in generators for database.yml and more.
+I encountered a major problem when testing the completed app.  It turned out that SQLite3, the default Rails DB, was being locked occasionally when async operations were executing.  This occurred when a watch or user and related watch records were being deleted and caused the process to fail, leaving behind orphaned watch attachments.  To solve this problem I converted to the MYSQL DB which did not produce the same problem. I had also upgraded from Rails 5 to Rails 6 which made the conversion so much easier. Rails 6 introduces the "[rails db:system:change](https://youtu.be/FlY82Eiyx3o)" command to make this easier, using all the built-in generators for database.yml and more.
 
 **HELPERS**
 
