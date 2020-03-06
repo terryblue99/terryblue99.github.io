@@ -6,7 +6,7 @@ permalink:  react_redux_portfolio_project
 ---
 
 
-My goal for [this project](https://github.com/terryblue99/my-watch-collection-v-003) was to expand upon my [previous Rails Project](https://github.com/terryblue99/my-watch-collection-v-001) by utilizing a React Redux frontend and a Rails API backend. 
+My goal for this project was to expand upon my [previous Rails Project](https://github.com/terryblue99/my-watch-collection-v-001) by utilizing a React Redux frontend and a Rails API backend. 
 
 It is an application named 'My Watch Collection' that allows a watch collector (like myself) to catalogue, update, and view their watch collection.
 
@@ -41,6 +41,9 @@ I encountered a major problem when testing the completed app.  It turned out tha
 
 **[VIDEO WALK THROUGH](https://youtu.be/_GNLVTxxW-Y)**
 
+[MYSQL versionof the app](https://github.com/terryblue99/my-watch-collection-v-003)
+
+[SQLite3 versionof the app](https://github.com/terryblue99/my-watch-collection-v-002)
 
 
 
