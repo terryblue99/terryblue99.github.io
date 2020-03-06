@@ -37,13 +37,13 @@ I encountered a major problem when testing the completed app.  It turned out tha
 
 [Scrimba](https://scrimba.com/)
 
-**[FLOWCHART](https://imgur.com/eCEjcaZ)**
+[Flowchart](https://imgur.com/eCEjcaZ)
 
-**[VIDEO WALK THROUGH](https://youtu.be/_GNLVTxxW-Y)**
+[Video Walk Through](https://youtu.be/_GNLVTxxW-Y)
 
-[MYSQL versionof the app](https://github.com/terryblue99/my-watch-collection-v-003)
+[MYSQL version of the app](https://github.com/terryblue99/my-watch-collection-v-003)
 
-[SQLite3 versionof the app](https://github.com/terryblue99/my-watch-collection-v-002)
+[SQLite3 version of the app](https://github.com/terryblue99/my-watch-collection-v-002)
 
 
 
