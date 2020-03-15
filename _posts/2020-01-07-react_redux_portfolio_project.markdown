@@ -29,7 +29,7 @@ I used Github branches to code and test my application as I developed it and mer
 
 I encountered a major problem when testing the completed app.  It turned out that SQLite3, the default Rails DB, was being locked occasionally when async operations were executing.  This occurred when a watch or user and related watch records were being deleted and caused the process to fail, leaving behind orphaned watch attachments.  
 
-To solve this problem I converted from the SQLite3 to the MYSQL DB. I had also upgraded from Rails 5 to Rails 6 which made the conversion so much easier than it could have been otherwise. Rails 6 introduced the "[rails db:system:change](https://youtu.be/FlY82Eiyx3o)" command to make for less involved conversions, using all the built-in generators for database.yml and more.
+To solve this problem I converted from the SQLite3 to the MySQL DB (MySQL needs to be installed). I had also upgraded from Rails 5 to Rails 6 which made the conversion so much easier than it could have been otherwise. Rails 6 introduced the "[rails db:system:change](https://youtu.be/FlY82Eiyx3o)" command to make for less involved conversions, using all the built-in generators for database.yml and more.
 
 **HELPERS**
 
