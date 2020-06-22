@@ -41,7 +41,7 @@ To solve this problem I converted from the SQLite to the MySQL DB (MySQL needs t
 
 **MICSELLANEOUS**
 
-[Flowchart](https://imgur.com/eCEjcaZ)
+[Flowchart](https://imgur.com/jOPSMqD)
 
 [Video Walk Through](https://youtu.be/_GNLVTxxW-Y)
 
