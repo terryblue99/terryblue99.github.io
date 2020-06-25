@@ -45,7 +45,7 @@ To solve this problem I converted from the SQLite to the MySQL DB (MySQL needs t
 
 [Video Walk Through](https://youtu.be/_GNLVTxxW-Y)
 
-[MySQL version of the app](https://github.com/terryblue99/my-watch-collection-v-003)
+[MySQL version of the app](https://github.com/terryblue99/my-watch-collection-v-004)
 
 [SQLite version of the app](https://github.com/terryblue99/my-watch-collection-v-002)
 
