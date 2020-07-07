@@ -43,7 +43,7 @@ To solve this problem I converted from the SQLite to the MySQL DB (MySQL needs t
 
 [Flowchart](https://imgur.com/jOPSMqD)
 
-[Video Walk Through](https://youtu.be/_GNLVTxxW-Y)
+[Video Walk Through](https://youtu.be/DDtw865l_Nc)
 
 [MySQL version of the app](https://github.com/terryblue99/my-watch-collection-v-004)
 
