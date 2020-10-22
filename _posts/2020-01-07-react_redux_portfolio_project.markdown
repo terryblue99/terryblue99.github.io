@@ -47,8 +47,6 @@ To solve this problem I converted from the SQLite to the MySQL DB (MySQL needs t
 
 [MySQL version - React + React Hooks + All Functional Components](https://github.com/terryblue99/my-watch-collection-v-004)
 
-[MySQL version - React + Some React Hooks + Class  & FunctionalComponents](https://github.com/terryblue99/my-watch-collection-v-003)
-
 [SQLite version - React + Some React Hooks + Class  & Functional Components](https://github.com/terryblue99/my-watch-collection-v-002)
 
 
