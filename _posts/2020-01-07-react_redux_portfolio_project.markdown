@@ -37,8 +37,6 @@ To solve this problem I converted from the SQLite to the MySQL DB (MySQL needs t
 
 [Google](https://www.google.com/)
 
-[Scrimba](https://scrimba.com/)
-
 **MICSELLANEOUS**
 
 [Flowchart](https://imgur.com/jOPSMqD)
